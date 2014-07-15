@@ -22,6 +22,7 @@
 		3569B68519758B1700E675F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3569B66419758B1600E675F8 /* UIKit.framework */; };
 		3569B68D19758B1700E675F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3569B68B19758B1700E675F8 /* InfoPlist.strings */; };
 		3569B68F19758B1700E675F8 /* MMKVOExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3569B68E19758B1700E675F8 /* MMKVOExampleTests.m */; };
+		3569B69A19758BA200E675F8 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3569B69919758BA200E675F8 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		3569B68A19758B1700E675F8 /* MMKVOExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMKVOExampleTests-Info.plist"; sourceTree = "<group>"; };
 		3569B68C19758B1700E675F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3569B68E19758B1700E675F8 /* MMKVOExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMKVOExampleTests.m; sourceTree = "<group>"; };
+		3569B69819758BA200E675F8 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		3569B69919758BA200E675F8 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				3569B67919758B1600E675F8 /* SecondViewController.m */,
 				3569B67B19758B1600E675F8 /* Images.xcassets */,
 				3569B66719758B1600E675F8 /* Supporting Files */,
+				3569B69819758BA200E675F8 /* Model.h */,
+				3569B69919758BA200E675F8 /* Model.m */,
 			);
 			path = MMKVOExample;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				3569B67119758B1600E675F8 /* AppDelegate.m in Sources */,
 				3569B67719758B1600E675F8 /* FirstViewController.m in Sources */,
 				3569B66D19758B1600E675F8 /* main.m in Sources */,
+				3569B69A19758BA200E675F8 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

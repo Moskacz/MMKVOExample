@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	NSLog(@"SecondViewController - view did load");
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +25,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)dealloc{
+    NSLog(@"SecondViewController - dealloc");
+}
+
+
 
 @end

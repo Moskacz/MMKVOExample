@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NSLog(@"SecondViewController - view did load");
+	NSLog(@"SecondViewController - view did load ");
 }
 
 - (void)didReceiveMemoryWarning
